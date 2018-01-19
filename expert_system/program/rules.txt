@@ -1,0 +1,29 @@
+{
+IF: ['live in water']
+THEN: 'the animal is fish'
+DESCRIPTION: 'fish'
+}
+
+{
+IF: ['have feather']
+THEN: 'the animal is bird'
+DESCRIPTION: 'bird'
+}
+
+{
+IF: ['can fly']
+THEN: 'the animal is bird'
+DESCRIPTION: 'bird'
+}
+
+{
+IF: ['live on land', 'have legs']
+THEN: 'the animal is cat'
+DESCRIPTION: 'cat'
+}
+
+{
+IF: ['live on land', 'have no legs']
+THEN: 'the animal is snake'
+DESCRIPTION: 'snake'
+}
