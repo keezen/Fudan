@@ -1,0 +1,29 @@
+Wisconsin (Imbalanced) data set
+
+1: Description.
+
+A imbalanced version of the Wisconsin data set, where the classes has been renamed to positive and negative. Moreover, instances with missing values have been removed.
+
+2: Type.			Imbalanced	
+3: Origin.			Real world
+4: Instances.		683
+5: Features.		9
+6: Classes.			2	
+7: Missing values.	Yes
+8: IR: 				1.86
+
+9: Header.
+
+@relation wisconsin
+@attribute ClumpThickness integer [1, 10]
+@attribute CellSize integer [1, 10]
+@attribute CellShape integer [1, 10]
+@attribute MarginalAdhesion integer [1, 10]
+@attribute EpithelialSize integer [1, 10]
+@attribute BareNuclei integer [1, 10]
+@attribute BlandChromatin integer [1, 10]
+@attribute NormalNucleoli integer [1, 10]
+@attribute Mitoses integer [1, 10]
+@attribute Class {negative,positive}
+@inputs ClumpThickness, CellSize, CellShape, MarginalAdhesion, EpithelialSize, BareNuclei, BlandChromatin, NormalNucleoli, Mitoses
+@outputs Class
